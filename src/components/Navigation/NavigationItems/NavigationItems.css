@@ -1,0 +1,18 @@
+/*  this below is for the mobile version*/
+
+.NavigationItems{
+    margin: 0;
+    padding:0;
+    list-style:none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+/* this is for desktop version if the min-width of device is 500 */
+@media (min-width: 500px) {
+    .NavigationItems{
+        flex-flow: row;
+    }
+}
